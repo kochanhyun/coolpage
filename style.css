@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "NanumBarunGothic";
+  src: url("/fonts/NanumBarunGothic.eot");
+  src: url("/fonts/NanumBarunGothic.eot") format("embedded-opentype"),
+    url("/fonts/NanumBarunGothic.woff") format("woff");
+}
+
+.wrapper {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -35%);
+}
+
+.button {
+  width: 250px;
+  height: 50px;
+  font-size: large;
+}
+
+.wrapper2 {
+  position: absolute;
+  top: 12.5%;
+  left: 50%;
+  transform: translate(-50%, -12.5%);
+  text-align: center;
+  width: 100%;
+}
+.wrapper4 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  text-align: center;
+  width: 70%;
+}
+
+.wrapper2 h1.title.is-1,
+.wrapper4 h3.subtitle.is-3,
+.button {
+  font-family: NanumBarunGothic;
+}
+
+.wrapper3 {
+  position: absolute;
+  top: 100%;
+  transform: translate(0%, -100%);
+  text-align: center;
+  width: 100%;
+}
+
+.wrapper4 h3.subtitle.is-3 {
+  word-break: break-all;
+  font-size: 2rem;
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .wrapper2 h1.title.is-1 {
+    font-size: 2.25rem;
+  }
+
+  .wrapper4 h3.subtitle.is-3 {
+    font-size: 1.7rem;
+  }
+
+  .button {
+    width: 200px;
+    height: 50px;
+    font-family: NanumBarunGothic;
+    font-size: large;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper2 h1.title.is-1 {
+    font-size: 1.75rem;
+  }
+
+  .wrapper4 h3.subtitle.is-3 {
+    font-size: 1.2rem;
+  }
+
+  .button {
+    width: 150px;
+    height: 50px;
+  }
+}
